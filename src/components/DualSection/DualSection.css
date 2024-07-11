@@ -1,0 +1,82 @@
+/* DualSection.css */
+.dual-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    max-width: 1014px;
+    margin: auto;
+    min-height: 400px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  
+  .left-content {
+    width: 40%;
+    text-align: left;
+
+  }
+  
+  .right-content {
+    width: 55%;
+    text-align: left;
+  }
+  
+  .content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .content p {
+    font-size: 18px;
+    color: #6e6e73;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .learn-more-btn {
+    background-color: #f86f24;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #e65d19;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .left-content,
+    .right-content {
+      width: 100%;
+    }
+  
+    .content h2 {
+      font-size: 24px;
+    }
+  
+    .content p {
+      font-size: 16px;
+    }
+  
+    .learn-more-btn {
+      font-size: 14px;
+      padding: 12px 25px;
+    }
+  }
+  

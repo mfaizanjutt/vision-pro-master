@@ -7,6 +7,7 @@ import ParallaxSection from "./components/AppleParallaxSection";
 import VrHeadset from "./components/vrHeadset";
 import EntertainmentParallax from "./components/EntertainmentParallax";
 import ProductivityParallax from "./components/ProductivityParallax";
+import DualSection from "./components/DualSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <VrHeadset />
       <EntertainmentParallax />
       <br />
+      <DualSection/>
       <ProductivityParallax/>
       <HeadSet />
     </div>

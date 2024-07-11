@@ -76,4 +76,7 @@
     height: 100vh;
     max-width: 100%;
   }
+  .hero-text a:hover::after {
+   display: none;
+  }
 }
